@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className='w-full bg-transparent text-white absolute top-0'>
       <nav className='max-w-7xl mx-auto flex justify-between p-5'>
-        <h1>Logo</h1>
+        <h1>IRN</h1>
         <ul className='flex gap-4'>
           <li><Links path="/" text="Music" /></li>
           <li><Links path="/" text="Eventos" /></li>
