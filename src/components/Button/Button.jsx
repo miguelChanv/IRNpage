@@ -1,12 +1,30 @@
-import React from 'react'
+import PropTypes from 'prop-types';
 
-const Button = () => {
+const Button = (props) => {
   return (
-    <div className='w-full flex justify-center text-white mt-10'>
-      <button className='bottom-20 bg-orange-700 w-44 h-10 rounded-md'>View all</button>
-       
-    </div>
+    <button
+      className='
+        text-sm 
+        font-markProMedium 
+        border 
+        bg-primary 
+        h-10 
+        w-32 
+        text-white 
+        uppercase 
+        rounded-md 
+        transition-all
+        hover:text-primary 
+        hover:border-primary 
+        hover:bg-transparent 
+      '>
+      {props.text}
+    </button>
   )
 }
+
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default Button

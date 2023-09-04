@@ -1,48 +1,31 @@
-import React from 'react'
-import fondo from '../../assets/fondo.jpg'
+import Heading2 from "../Titles/Heading2"
 
 const Cards = () => {
-  return (
-    <div className='flex gap-10 mt-10 ml-5 flex-wrap'>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
+    return (
+        <div className="grid grid-cols-3 gap-4">
+            <div className="h-72 flex flex-col gap-4 overflow-hidden">
+                <div className="h-3/4 bg-card bg-no-repeat bg-cover rounded-lg"></div>
+                <div className="h-1/4 flex flex-col">
+                    <Heading2 text='J. Cole - Atm' />
+                    <span className="text-xs uppercase font-markProMedium">9 february, 2019 | Spektre</span>
+                </div>
+            </div>
+            <div className="h-72 flex flex-col gap-4 overflow-hidden">
+                <div className="h-3/4 bg-card bg-no-repeat bg-cover rounded-lg"></div>
+                <div className="h-1/4 flex flex-col">
+                    <Heading2 text='J. Cole - Atm' />
+                    <span className="text-xs uppercase font-markProMedium">9 february, 2019 | Spektre</span>
+                </div>
+            </div>
+            <div className="h-72 flex flex-col gap-4 overflow-hidden">
+                <div className="h-3/4 bg-card bg-no-repeat bg-cover rounded-lg"></div>
+                <div className="h-1/4 flex flex-col">
+                    <Heading2 text='J. Cole - Atm' />
+                    <span className="text-xs uppercase font-markProMedium">9 february, 2019 | Spektre</span>
+                </div>
+            </div>
         </div>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
-        </div>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
-        </div>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
-        </div>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
-        </div>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
-        </div>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
-        </div>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
-        </div>
-        <div className='w-40 flex flex-col items-center'>
-           <img className='w-18 rounded-md' src={fondo} alt="" /> 
-            <h3>Tarjetas</h3>
-        </div>
-        
-    </div>
-  )
+    )
 }
 
 export default Cards

@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "MarkLight";
+    src: url("./assets/fonts/MarkPro-Light.ttf");
+}
+@font-face {
+    font-family: "MarkPro";
+    src: url("./assets/fonts/Mark-Pro.ttf");
+}
+@font-face {
+    font-family: "MarkProHeavy";
+    src: url("./assets/fonts/Mark-Pro-Heavy.ttf");
+}
+@font-face {
+    font-family: "MarkProMedium";
+    src: url("./assets/fonts/MarkPro-Medium.ttf");
+}
+@font-face {
+    font-family: "MarkProBold";
+    src: url("./assets/fonts/Mark-Pro-Bold.ttf");
+}
+@font-face {
+    font-family: "MarkProBlack";
+    src: url("./assets/fonts/Mark-Pro-Black.ttf");
+}
+
+@layer base {
+    html {
+        font-family: 'MarkPro', system-ui, sans-serif;
+    }
+}
