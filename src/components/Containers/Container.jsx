@@ -8,6 +8,8 @@ const Container = () => {
             <Heading1 text='Podcast' />
             <Cards />
             <Button text='View All' />
+            <Heading1 text='Temas' />
+
         </div>
     )
 }
