@@ -4,15 +4,15 @@ const Button = (props) => {
   return (
     <button
       className='
-        text-sm 
-        font-markProMedium 
-        border 
-        bg-primary 
         h-10 
         w-32 
+        text-sm 
+        font-markProMedium 
+        border
+        bg-primary 
         text-white 
         uppercase 
-        rounded-md 
+        rounded-md
         transition-all
         hover:text-primary 
         hover:border-primary 
