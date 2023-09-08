@@ -7,7 +7,7 @@ import Controls from './Controls';
 
 const Player = () => {
     const [volume, setVolume] = useState(0.3);
-    const [play, { pause }] = useSound(Music, { volume: volume });
+    const [play, { pause }] = useSound('https://us4freenew.listen2myradio.com/live.mp3?typeportmount=s1_4976_stream_175555272', { volume: volume });
     // const [playSound] = useSound(Music);
     // const audio = useRef()
     // const value = audio.current;
