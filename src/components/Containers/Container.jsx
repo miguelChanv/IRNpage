@@ -1,6 +1,7 @@
 import Cards from "../Cards/Cards"
 import Heading1 from "../Titles/Heading1"
 import Button from "../Button/Button"
+import Contact from "../Contact/Contact"
 
 const Container = () => {
     return (
@@ -9,6 +10,7 @@ const Container = () => {
             <Cards />
             <Button text='View All' />
             <Heading1 text='Temas' />
+            <Contact/>
 
         </div>
     )

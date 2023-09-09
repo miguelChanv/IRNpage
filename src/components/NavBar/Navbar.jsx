@@ -3,9 +3,9 @@ import Links from "../Links/Links.jsx"
 const Navbar = () => {
   return (
     <header className='w-full bg-transparent text-white absolute top-0'>
-      <nav className='max-w-7xl mx-auto flex justify-between p-5'>
+      <nav className='max-w-7xl text-2xl mx-auto flex justify-between p-5'>
         <h1>IRN COMUNICACIONES</h1>
-        <ul className='flex gap-4'>
+        <ul className='flex gap-4 '>
           <li><Links path="/" text="Musica" /></li>
           <li><Links path="/" text="Eventos" /></li>
           <li><Links path="/" text="Invitados" /></li>

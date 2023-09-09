@@ -6,7 +6,7 @@ const Links = (props) => {
         <Link
             to={props.path}
             className="
-                text-sm 
+            text-lg
                 uppercase 
                 font-markProMedium 
                 transition-all
